@@ -1,0 +1,108 @@
+Convert the exercises that you have written in Python to pseudo code here.
+
+Exercise 1:
+
+Python Code
+
+number1 = int(input("Input first number to add"))
+number2 = int(input("Input second number to add"))
+sum = number1 + number2
+print(sum)
+
+Pseudocode:
+
+OUTPUT "Input first number to add"
+number1 <-- USERINPUT
+OUTPUT "Input second number to add"
+number2 <-- USERINPUT
+
+sum <-- number1 + number2
+
+OUTPUT sum
+
+Exercise 2:
+
+Python Code:
+
+number = int(input("What number do you want to print out?"))
+
+sum = 0
+
+for i in range(number + 1):
+  sum = sum + i
+
+print(sum)
+
+Pseudocode:
+
+OUTPUT What number do you want to print out
+number <-- USERINPUT
+
+FOR X <-- 0 TO number
+  sum <-- sum + X
+ENDFOR
+
+OUTPUT number
+
+Exercise 3:
+
+Python code
+
+numberToDivide = int(input("Number to divide?"))
+a = 6 # can't change
+a = a / numberToDivide
+print(a) # can't change
+
+Pseudocode:
+
+OUTPUT "Number to divide?"
+numberToDivide <-- USERINPUT
+
+a <-- 6
+a <-- a / numberToDivide
+
+OUTPUT a
+
+Exercise 4:
+
+Python:
+
+number_input = int(input("Enter a number please: "))
+
+sum = 0
+
+for i in range(number_input):
+  sum = sum + 3
+
+print("Result: " + str(sum))
+
+Pseudocode:
+
+OUTPUT "Enter a number please:"
+number_input <-- USERINPUT
+
+sum <-- 0
+
+FOR X <-- 0 TO number_input - 1
+  sum <-- sum + 3
+ENDFOR
+
+OUTPUT "Result: " + sum
+
+Exercise 5:
+
+Python:
+
+number = int(input("number"))
+
+for i in range(number):
+  print("You need a better for loop")
+
+Pseudocode: 
+
+OUTPUT "number"
+number <-- USERINPUT
+
+FOR X <-- 0 TO number - 1
+  OUTPUT "You need a better for loop"
+ENDFOR
